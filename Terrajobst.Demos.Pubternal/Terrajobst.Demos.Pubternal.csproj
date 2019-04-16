@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <NoWarn>NU5100</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Terrajobst.Demos.Pubternal.Internal\Terrajobst.Demos.Pubternal.Internal.csproj"
+                      PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="ref/netstandard2.0" Visible="false" />
+    <None Include="$(OutputPath)\*.dll" Pack="true" PackagePath="lib/netstandard2.0" Visible="false" />
+  </ItemGroup>
+
+</Project>

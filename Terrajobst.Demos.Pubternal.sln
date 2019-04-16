@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28815.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Terrajobst.Demos.Pubternal", "Terrajobst.Demos.Pubternal\Terrajobst.Demos.Pubternal.csproj", "{F319E9D0-B411-4F66-89E9-C6D290FECBFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Terrajobst.Demos.Pubternal.Internal", "Terrajobst.Demos.Pubternal.Internal\Terrajobst.Demos.Pubternal.Internal.csproj", "{84CBD9ED-9D8A-48E8-821A-BF8110EB2877}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F319E9D0-B411-4F66-89E9-C6D290FECBFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F319E9D0-B411-4F66-89E9-C6D290FECBFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F319E9D0-B411-4F66-89E9-C6D290FECBFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F319E9D0-B411-4F66-89E9-C6D290FECBFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84CBD9ED-9D8A-48E8-821A-BF8110EB2877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84CBD9ED-9D8A-48E8-821A-BF8110EB2877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84CBD9ED-9D8A-48E8-821A-BF8110EB2877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84CBD9ED-9D8A-48E8-821A-BF8110EB2877}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3AABCE1-A549-40B3-9587-62F8944CB827}
+	EndGlobalSection
+EndGlobal
